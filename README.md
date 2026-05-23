@@ -1,2 +1,2 @@
-# python-practise
+# python-practice
 python learning and practise code
