@@ -43,5 +43,17 @@ reversed_words = words[::-1]
 reversed_sentence = " ".join(reversed_words)
 print(f"reversed: {reversed_sentence}")
 
+#word counter
 
-
+s = input("Enter a sentence : ")
+visited  = []
+words = s.split()
+for i in words :
+    if i in visited :
+        continue #if the word is already in the list, skip to the next iteration    
+    visited.append(i)
+    count = 0
+    for j in words :
+        if i == j :
+            count = count + 1
+    print(f"{i} : {count}")
