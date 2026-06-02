@@ -1,4 +1,4 @@
-strings
+# strings
 
 sentence = input("Enter a sentence: ")
 upper = sentence.upper()
