@@ -1,4 +1,4 @@
-#strings
+strings
 
 sentence = input("Enter a sentence: ")
 upper = sentence.upper()
@@ -57,3 +57,19 @@ for i in words :
         if i == j :
             count = count + 1
     print(f"{i} : {count}")
+
+#guessing game 
+
+import random
+number = random.randint(1, 20)
+guess = int(input("Guess a number which is between 1 to 20 : "))
+counter = 1
+while guess != number :
+    counter = counter + 1
+    if guess < number : 
+        print("Too Low")
+    else :
+        print("Too High")
+    guess = int(input("Guess again : "))
+print(f"Number of guesses : {counter}")
+print("Congratulations! You guessed the number.")
