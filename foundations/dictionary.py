@@ -1,15 +1,15 @@
 #count the no of times each word appears in a sentence
 
-# sentence = input("Enter a sentence: ")
-# words = sentence.split()
-# counts = {}
-# for i in words:
-#     if i in counts:    # which word am i currently trying to count ?
-#         counts[i] += 1
-#     else:
-#         counts[i] = 1
-# for word in counts:
-#     print(f"{word} : {counts[word]}")
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+counts = {}
+for i in words:
+    if i in counts:    # which word am i currently trying to count ?
+        counts[i] += 1
+    else:
+        counts[i] = 1
+for word in counts:
+    print(f"{word} : {counts[word]}")
 
 
 #student_grades
