@@ -38,7 +38,7 @@ while True:
         break
      try:
           num = int(num)
-          list_of_numbers.append(num)
+          list_of_numbers.append(num) # add the numbers in the list 
      except ValueError:
           print("That's not a valid number.")
           continue
